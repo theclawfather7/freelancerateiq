@@ -38,7 +38,7 @@ export async function POST(request: NextRequest) {
         const downloadLink = `https://freelancerateiq.com/guide?session_id=${sessionId}`;
 
         await resend.emails.send({
-          from: 'FreelanceRateIQ <onboarding@resend.dev>',
+          from: 'FreelanceRateIQ <hello@freelancerateiq.com>',
           to: customerEmail,
           subject: 'Your FreelanceRateIQ Guide is ready! 📄',
           html: buildEmail(downloadLink),
