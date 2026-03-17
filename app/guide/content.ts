@@ -23,7 +23,7 @@ These ranges reflect actual market rates across remote-friendly platforms (Upwor
 | React / Next.js | $75/hr | $110/hr | $150/hr | $200/hr |
 | Full-Stack (Node + React) | $85/hr | $120/hr | $165/hr | $225/hr |
 | Shopify / E-commerce | $60/hr | $95/hr | $135/hr | $175/hr |
-| Mobile (React Native) | $80/hr | $120/hr | $160/hr $210/hr |
+| Mobile (React Native) | $80/hr | $120/hr | $160/hr | $210/hr |
 | DevOps / Cloud (AWS/GCP) | $95/hr | $140/hr | $185/hr | $250/hr |
 
 **Project rates:** Multiply your hourly by 1.3–1.5x for fixed-price projects to cover scope creep buffer.
