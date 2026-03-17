@@ -196,6 +196,14 @@ export default function Home() {
           <p>Used by freelancers in 50+ countries · Updated quarterly with real market data</p>
         </div>
       </div>
+      <footer className="mt-16 py-8 border-t border-slate-800 text-center text-slate-500 text-xs">
+        <p className="mb-2">© 2026 FreelanceRateIQ · All rights reserved</p>
+        <div className="flex justify-center gap-6">
+          <a href="/privacy" className="hover:text-slate-300 transition-colors">Privacy Policy</a>
+          <a href="/terms" className="hover:text-slate-300 transition-colors">Terms of Service</a>
+          <a href="mailto:hello@freelancerateiq.com" className="hover:text-slate-300 transition-colors">Contact</a>
+        </div>
+      </footer>
     </main>
   )
 }
