@@ -194,6 +194,11 @@ export default function Home() {
         {/* Social proof / trust */}
         <div className="mt-12 text-center text-slate-500 text-sm">
           <p>Used by freelancers in 50+ countries · Updated quarterly with real market data</p>
+          <div className="mt-4 flex flex-wrap justify-center gap-5 text-xs">
+            <a href="/calculators" className="text-slate-400 hover:text-white transition-colors">Rates by Niche →</a>
+            <a href="/cities" className="text-slate-400 hover:text-white transition-colors">Rates by City →</a>
+            <a href="/blog" className="text-slate-400 hover:text-white transition-colors">Rate Guides →</a>
+          </div>
         </div>
       </div>
       <footer className="mt-16 py-8 border-t border-slate-800 text-center text-slate-500 text-xs">

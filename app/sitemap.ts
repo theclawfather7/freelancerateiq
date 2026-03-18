@@ -1,6 +1,12 @@
 import { MetadataRoute } from "next";
 import { niches } from "./calculators/data";
 
+const citySlugsList = [
+  'new-york','san-francisco','los-angeles','chicago','austin',
+  'seattle','boston','denver','miami','dallas','atlanta','portland',
+  'nashville','phoenix','remote',
+]
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const calculatorPages = niches.map((n) => ({
     url: `https://freelancerateiq.com/calculators/${n.slug}`,
@@ -23,6 +29,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
     ...calculatorPages,
+    {
+      url: "https://freelancerateiq.com/cities",
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.9,
+    },
+    ...citySlugsList.map((slug) => ({
+      url: `https://freelancerateiq.com/cities/${slug}`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.85,
+    })),
     {
       url: "https://freelancerateiq.com/blog",
       lastModified: new Date(),
