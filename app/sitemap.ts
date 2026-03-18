@@ -1,6 +1,14 @@
 import { MetadataRoute } from "next";
+import { niches } from "./calculators/data";
 
 export default function sitemap(): MetadataRoute.Sitemap {
+  const calculatorPages = niches.map((n) => ({
+    url: `https://freelancerateiq.com/calculators/${n.slug}`,
+    lastModified: new Date(),
+    changeFrequency: "monthly" as const,
+    priority: 0.9,
+  }));
+
   return [
     {
       url: "https://freelancerateiq.com",
@@ -8,6 +16,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly",
       priority: 1,
     },
+    {
+      url: "https://freelancerateiq.com/calculators",
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    ...calculatorPages,
     {
       url: "https://freelancerateiq.com/blog",
       lastModified: new Date(),
