@@ -15,6 +15,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
+      url: "https://freelancerateiq.com/blog/how-to-calculate-freelance-rate",
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+    {
+      url: "https://freelancerateiq.com/blog/freelance-rates-by-industry",
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+    {
+      url: "https://freelancerateiq.com/blog/web-developer-freelance-rates",
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+    {
       url: "https://freelancerateiq.com/blog/how-much-to-charge-freelancing",
       lastModified: new Date(),
       changeFrequency: "monthly",

@@ -8,6 +8,27 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    slug: 'how-to-calculate-freelance-rate',
+    title: 'How to Calculate Your Freelance Rate: The Complete Formula',
+    date: 'March 18, 2026',
+    excerpt: 'The math most freelancers skip — how to factor in taxes, expenses, unpaid time, and profit to find your true minimum viable rate.',
+    readTime: '9 min read',
+  },
+  {
+    slug: 'freelance-rates-by-industry',
+    title: 'Freelance Rates by Industry: What Top Earners Charge in 2026',
+    date: 'March 18, 2026',
+    excerpt: 'Real rate benchmarks across web dev, design, writing, marketing, and consulting — and what separates $75/hr freelancers from $250/hr ones.',
+    readTime: '10 min read',
+  },
+  {
+    slug: 'web-developer-freelance-rates',
+    title: 'Web Developer Freelance Rates 2026: What to Charge',
+    date: 'March 18, 2026',
+    excerpt: 'Detailed rate tables for frontend, backend, and full-stack developers — segmented by tech stack, industry vertical, and experience level.',
+    readTime: '8 min read',
+  },
+  {
     slug: 'how-much-to-charge-freelancing',
     title: 'How Much Should You Charge for Freelance Work? (2026 Data)',
     date: 'March 17, 2026',
