@@ -197,6 +197,7 @@ export default function Home() {
           <div className="mt-4 flex flex-wrap justify-center gap-5 text-xs">
             <a href="/calculators" className="text-slate-400 hover:text-white transition-colors">Rates by Niche →</a>
             <a href="/cities" className="text-slate-400 hover:text-white transition-colors">Rates by City →</a>
+            <a href="/experience" className="text-slate-400 hover:text-white transition-colors">Rates by Level →</a>
             <a href="/blog" className="text-slate-400 hover:text-white transition-colors">Rate Guides →</a>
           </div>
         </div>

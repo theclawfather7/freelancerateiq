@@ -1,6 +1,8 @@
 import { MetadataRoute } from "next";
 import { niches } from "./calculators/data";
 
+const experienceLevels = ['entry-level', 'junior', 'mid-level', 'senior', 'expert']
+
 const citySlugsList = [
   'new-york','san-francisco','los-angeles','chicago','austin',
   'seattle','boston','denver','miami','dallas','atlanta','portland',
@@ -29,6 +31,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
     ...calculatorPages,
+    {
+      url: "https://freelancerateiq.com/experience",
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.9,
+    },
+    ...experienceLevels.map((slug) => ({
+      url: `https://freelancerateiq.com/experience/${slug}`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.85,
+    })),
     {
       url: "https://freelancerateiq.com/cities",
       lastModified: new Date(),
