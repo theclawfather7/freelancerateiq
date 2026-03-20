@@ -198,6 +198,7 @@ export default function Home() {
             <a href="/calculators" className="text-slate-400 hover:text-white transition-colors">Rates by Niche →</a>
             <a href="/cities" className="text-slate-400 hover:text-white transition-colors">Rates by City →</a>
             <a href="/experience" className="text-slate-400 hover:text-white transition-colors">Rates by Level →</a>
+            <a href="/remote" className="text-slate-400 hover:text-white transition-colors">Remote & Nomad Rates →</a>
             <a href="/blog" className="text-slate-400 hover:text-white transition-colors">Rate Guides →</a>
           </div>
         </div>

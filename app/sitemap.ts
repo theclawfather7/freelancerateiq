@@ -153,6 +153,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
 
     {
+      url: "https://freelancerateiq.com/remote",
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.9,
+    },
+    ...['work-from-home-rates','digital-nomad-rates','us-clients-from-abroad','time-zone-pricing','async-work-tips','location-independent-rates'].map((slug) => ({
+      url: `https://freelancerateiq.com/remote/${slug}`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.85,
+    })),
+    {
       url: "https://freelancerateiq.com/pricing-guide",
       lastModified: new Date(),
       changeFrequency: "monthly",
