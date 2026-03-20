@@ -151,5 +151,48 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
       priority: 0.8,
     },
+
+    {
+      url: "https://freelancerateiq.com/pricing-guide",
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+    {
+      url: "https://freelancerateiq.com/pricing-guide/how-to-set-freelance-rates",
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.85,
+    },
+    {
+      url: "https://freelancerateiq.com/pricing-guide/hourly-vs-project-pricing",
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.85,
+    },
+    {
+      url: "https://freelancerateiq.com/pricing-guide/how-to-raise-freelance-rates",
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.85,
+    },
+    {
+      url: "https://freelancerateiq.com/pricing-guide/freelance-pricing-mistakes",
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.85,
+    },
+    {
+      url: "https://freelancerateiq.com/pricing-guide/value-based-pricing",
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.85,
+    },
+    {
+      url: "https://freelancerateiq.com/pricing-guide/handling-price-objections",
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.85,
+    },
   ];
 }
