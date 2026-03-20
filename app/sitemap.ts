@@ -206,5 +206,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
       priority: 0.85,
     },
+    {
+      url: "https://freelancerateiq.com/taxes",
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.9,
+    },
+    ...['freelance-tax-guide','self-employment-tax','quarterly-taxes','freelance-tax-deductions','freelance-tax-rate','home-office-deduction','freelance-retirement-accounts','llc-vs-sole-proprietor'].map((slug) => ({
+      url: `https://freelancerateiq.com/taxes/${slug}`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.85,
+    })),
   ];
 }
