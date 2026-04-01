@@ -517,6 +517,52 @@ export const niches: NicheData[] = [
       { slug: 'raise-your-freelance-rates', title: 'How to Raise Your Freelance Rates Without Losing Clients' },
     ],
   },
+  {
+    slug: 'ai-ml-engineer',
+    nicheLabel: 'AI / Machine Learning',
+    title: 'AI & Machine Learning Freelance Rate Calculator — 2026 Rates',
+    h1: 'AI / Machine Learning Freelance Rate Calculator',
+    description:
+      'Find your market rate as a freelance AI or ML engineer. 2026 benchmarks for prompt engineers, LLM specialists, ML engineers, and AI consultants by experience level.',
+    keywords:
+      'AI freelance rates 2026, machine learning engineer freelance rate, freelance AI engineer hourly rate, prompt engineer rate, LLM consultant rate',
+    intro:
+      'AI and machine learning is the fastest-growing — and highest-paying — technical freelance niche in 2026. Demand for independent AI engineers, LLM specialists, and AI integration consultants is outpacing supply by a wide margin. Use the calculator below to get your personalized rate, then compare against real market benchmarks.',
+    rateTable: [
+      { level: 'Entry (0-2 yrs)', range: '$75–$120/hr', notes: 'Python/ML fundamentals, Hugging Face, basic fine-tuning' },
+      { level: 'Junior (2-4 yrs)', range: '$110–$160/hr', notes: 'LLM integrations, RAG pipelines, API-based AI features' },
+      { level: 'Mid (4-7 yrs)', range: '$150–$225/hr', notes: 'Custom model training, MLOps, production AI systems' },
+      { level: 'Senior (7-10 yrs)', range: '$200–$325/hr', notes: 'AI architecture, team lead, large-scale deployment' },
+      { level: 'Expert (10+ yrs)', range: '$300–$500+/hr', notes: 'Research-level, novel architectures, enterprise AI strategy' },
+    ],
+    faqs: [
+      {
+        q: 'What do freelance AI engineers actually charge in 2026?',
+        a: 'Independent AI/ML engineers are charging $150-$300/hr for production work in 2026. The wide range reflects specialization: an API-wrapper developer earns far less than someone building custom fine-tuned models or designing RAG architectures from scratch. Prompt engineering alone commands $75-$150/hr; full ML pipeline engineering starts at $175/hr.',
+      },
+      {
+        q: 'Is prompt engineering a real freelance career?',
+        a: 'It is, but it\'s commoditizing fast. Pure prompt work ($75-$120/hr) is already getting squeezed. The durable niche is "AI integration engineering" — connecting LLMs to real business systems, databases, and workflows. That requires software engineering skills plus AI knowledge, and it commands $150-$250/hr.',
+      },
+      {
+        q: 'Which AI/ML specializations command the highest freelance rates?',
+        a: 'In 2026: fine-tuning and RLHF on proprietary datasets ($250-$400/hr), AI safety and red-teaming ($200-$350/hr), multimodal systems (vision + language), real-time inference optimization, and vertical-specific AI (medical AI, legal AI, financial AI). General "ChatGPT wrapper" work is being priced out by no-code tools.',
+      },
+      {
+        q: 'How do I position myself as an AI freelancer vs. a traditional developer?',
+        a: 'Stop calling yourself a developer. You\'re an AI systems architect or an AI product engineer. Lead with business outcomes: "I build AI systems that reduce support tickets by 60%" lands better than "I integrate OpenAI APIs." Most clients are buying business transformation, not technology.',
+      },
+      {
+        q: 'Should AI freelancers charge hourly or project-based?',
+        a: 'Project-based is almost always better once you have experience. A RAG pipeline that takes you 40 hours might be worth $30,000 in value to a client. Billing at even $200/hr leaves $22,000 on the table. For well-scoped AI projects, quote a flat project rate with milestone payments. Keep hourly for ambiguous research and consulting work.',
+      },
+    ],
+    topSkills: ['Python', 'LangChain / LlamaIndex', 'OpenAI / Anthropic APIs', 'Fine-tuning (LoRA, RLHF)', 'RAG architectures', 'Vector databases (Pinecone, Weaviate)', 'MLOps (AWS SageMaker, GCP Vertex)', 'Hugging Face', 'PyTorch / TensorFlow'],
+    relatedBlogs: [
+      { slug: 'ai-ml-freelance-rates-2026', title: 'AI & ML Freelance Rates in 2026: What Engineers Are Actually Charging' },
+      { slug: 'freelance-rates-by-industry', title: 'Freelance Rates by Industry: What Top Earners Charge in 2026' },
+    ],
+  },
 ]
 
 export function getNiche(slug: string): NicheData | undefined {

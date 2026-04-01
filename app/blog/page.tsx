@@ -8,6 +8,13 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    slug: 'ai-ml-freelance-rates-2026',
+    title: 'AI & ML Freelance Rates in 2026: What Engineers Are Actually Charging',
+    date: 'April 1, 2026',
+    excerpt: 'AI/ML is the highest-paying freelance niche in 2026. Here\'s what real engineers are charging — from prompt engineers to fine-tuning specialists — and how to position yourself for $200+/hr.',
+    readTime: '9 min read',
+  },
+  {
     slug: 'how-to-calculate-freelance-rate',
     title: 'How to Calculate Your Freelance Rate: The Complete Formula',
     date: 'March 18, 2026',

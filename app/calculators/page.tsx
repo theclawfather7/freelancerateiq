@@ -23,6 +23,7 @@ const nicheEmojis: Record<string, string> = {
   'virtual-assistant': '📋',
   'social-media-manager': '📱',
   'consultant': '💼',
+  'ai-ml-engineer': '🤖',
 }
 
 export default function CalculatorsIndex() {

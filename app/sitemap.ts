@@ -92,6 +92,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
+      url: "https://freelancerateiq.com/blog/ai-ml-freelance-rates-2026",
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+    {
       url: "https://freelancerateiq.com/privacy",
       lastModified: new Date(),
       changeFrequency: "yearly",
