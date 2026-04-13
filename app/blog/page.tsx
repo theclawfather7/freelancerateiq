@@ -8,6 +8,20 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    slug: 'how-to-find-freelance-clients',
+    title: 'How to Find Freelance Clients in 2026 (Without Cold Emailing Strangers)',
+    date: 'April 13, 2026',
+    excerpt: 'Practical, proven strategies for finding high-quality freelance clients in 2026. Which channels actually work, which are a waste of time, and how to build a client pipeline that never dries up.',
+    readTime: '11 min read',
+  },
+  {
+    slug: 'freelance-graphic-design-rates',
+    title: 'Freelance Graphic Design Rates 2026: What to Charge (and Why)',
+    date: 'April 13, 2026',
+    excerpt: 'Real freelance graphic design rate data for 2026. Hourly, per-project, and retainer benchmarks for logos, brand identity, social media, and more — with tips on how to charge more.',
+    readTime: '10 min read',
+  },
+  {
     slug: 'ai-ml-freelance-rates-2026',
     title: 'AI & ML Freelance Rates in 2026: What Engineers Are Actually Charging',
     date: 'April 1, 2026',
