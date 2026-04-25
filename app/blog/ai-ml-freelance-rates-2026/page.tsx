@@ -1,6 +1,22 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 
+const articleSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  'headline': 'AI & ML Freelance Rates in 2026: What Engineers Are Actually Charging',
+  'description': 'Real AI and machine learning freelance rate data for 2026. What prompt engineers, LLM specialists, ML engineers, and AI consultants charge.',
+  'url': 'https://freelancerateiq.com/blog/ai-ml-freelance-rates-2026',
+  'datePublished': '2026-03-28',
+  'dateModified': '2026-04-13',
+  'author': { '@type': 'Organization', 'name': 'FreelanceRateIQ', 'url': 'https://freelancerateiq.com' },
+  'publisher': { '@type': 'Organization', 'name': 'FreelanceRateIQ', 'url': 'https://freelancerateiq.com' },
+  'mainEntityOfPage': { '@type': 'WebPage', '@id': 'https://freelancerateiq.com/blog/ai-ml-freelance-rates-2026' },
+  'keywords': 'AI freelance rates 2026, machine learning freelance rate, prompt engineer salary, LLM freelance rates, AI consultant rates',
+  'articleSection': 'Freelance Rates by Niche',
+  'inLanguage': 'en-US',
+}
+
 export const metadata: Metadata = {
   title: 'AI & ML Freelance Rates in 2026: What Engineers Are Actually Charging — FreelanceRateIQ',
   description: 'Real AI and machine learning freelance rate data for 2026. See what prompt engineers, LLM specialists, ML engineers, and AI consultants charge — and how to hit $200+/hr.',
@@ -16,6 +32,7 @@ export const metadata: Metadata = {
 export default function AiMlFreelanceRates2026() {
   return (
     <div className="min-h-screen bg-slate-900 text-white">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <div className="max-w-3xl mx-auto px-6 py-16">
         <div className="mb-6">
           <Link href="/blog" className="text-emerald-400 text-sm hover:underline">← Blog</Link>

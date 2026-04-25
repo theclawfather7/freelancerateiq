@@ -1,6 +1,22 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 
+const articleSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  'headline': 'Web Developer Freelance Rates 2026: What to Charge',
+  'description': 'Real web developer freelance rates by specialization, experience level, and tech stack.',
+  'url': 'https://freelancerateiq.com/blog/web-developer-freelance-rates',
+  'datePublished': '2026-03-22',
+  'dateModified': '2026-04-13',
+  'author': { '@type': 'Organization', 'name': 'FreelanceRateIQ', 'url': 'https://freelancerateiq.com' },
+  'publisher': { '@type': 'Organization', 'name': 'FreelanceRateIQ', 'url': 'https://freelancerateiq.com' },
+  'mainEntityOfPage': { '@type': 'WebPage', '@id': 'https://freelancerateiq.com/blog/web-developer-freelance-rates' },
+  'keywords': 'web developer freelance rate, freelance web developer hourly rate, frontend developer rate, full stack developer freelance rate',
+  'articleSection': 'Freelance Rates by Niche',
+  'inLanguage': 'en-US',
+}
+
 export const metadata: Metadata = {
   title: 'Web Developer Freelance Rates 2026: What to Charge — FreelanceRateIQ',
   description: 'Real web developer freelance rates by specialization, experience level, and tech stack. See what frontend, backend, and full-stack devs actually charge in 2026.',
@@ -16,6 +32,7 @@ export const metadata: Metadata = {
 export default function WebDeveloperFreelanceRates() {
   return (
     <div className="min-h-screen bg-slate-900 text-white">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <div className="max-w-3xl mx-auto px-6 py-16">
         <div className="mb-6">
           <Link href="/blog" className="text-emerald-400 text-sm hover:underline">← Blog</Link>

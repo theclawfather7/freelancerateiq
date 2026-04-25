@@ -1,6 +1,22 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 
+const articleSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  'headline': 'How to Calculate Your Freelance Rate: The Complete Formula',
+  'description': 'Step-by-step formula for calculating your freelance hourly rate. Factor in taxes, expenses, unpaid time, and profit.',
+  'url': 'https://freelancerateiq.com/blog/how-to-calculate-freelance-rate',
+  'datePublished': '2026-03-18',
+  'dateModified': '2026-04-13',
+  'author': { '@type': 'Organization', 'name': 'FreelanceRateIQ', 'url': 'https://freelancerateiq.com' },
+  'publisher': { '@type': 'Organization', 'name': 'FreelanceRateIQ', 'url': 'https://freelancerateiq.com' },
+  'mainEntityOfPage': { '@type': 'WebPage', '@id': 'https://freelancerateiq.com/blog/how-to-calculate-freelance-rate' },
+  'keywords': 'how to calculate freelance rate, freelance rate formula, freelance hourly rate calculator',
+  'articleSection': 'Freelance Pricing',
+  'inLanguage': 'en-US',
+}
+
 export const metadata: Metadata = {
   title: 'How to Calculate Your Freelance Rate: The Complete Formula — FreelanceRateIQ',
   description: 'Step-by-step formula for calculating your freelance hourly rate. Factor in taxes, expenses, unpaid time, and profit — and never leave money on the table again.',
@@ -16,6 +32,7 @@ export const metadata: Metadata = {
 export default function HowToCalculateFreelanceRate() {
   return (
     <div className="min-h-screen bg-slate-900 text-white">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <div className="max-w-3xl mx-auto px-6 py-16">
         <div className="mb-6">
           <Link href="/blog" className="text-emerald-400 text-sm hover:underline">← Blog</Link>
