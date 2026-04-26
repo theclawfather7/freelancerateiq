@@ -317,30 +317,69 @@ export default function Home() {
 
         {/* Upsell */}
         {showUpsell && (
-          <div className="bg-slate-800 border border-slate-600 rounded-2xl p-8">
-            <div className="flex items-start gap-4">
-              <div className="text-3xl">📖</div>
-              <div className="flex-1">
-                <h2 className="text-xl font-bold mb-2">Want to actually charge those rates?</h2>
-                <p className="text-slate-400 mb-4">
-                  Knowing your rate is step one. Getting clients to pay it is another. The <strong className="text-white">FreelanceRateIQ Guide</strong> covers:
-                </p>
-                <ul className="text-slate-300 space-y-2 mb-6 text-sm">
-                  <li>✓ Word-for-word scripts to raise rates with existing clients</li>
-                  <li>✓ Rate tables for 40+ niches with percentile breakdowns</li>
-                  <li>✓ How to position yourself as premium (not expensive)</li>
-                  <li>✓ When and how to turn down low-paying clients</li>
-                  <li>✓ Negotiation tactics that work without feeling pushy</li>
-                </ul>
-                <div className="flex items-center gap-4">
-                  <button
-                    onClick={handleBuyGuide}
-                    disabled={loading}
-                    className="bg-emerald-500 hover:bg-emerald-400 text-white font-semibold px-8 py-3 rounded-lg transition-colors"
-                  >
-                    {loading ? 'Loading...' : 'Get the Guide — $27'}
-                  </button>
-                  <span className="text-slate-500 text-sm">Instant PDF download</span>
+          <div className="space-y-4">
+            {/* $27 Guide */}
+            <div className="bg-slate-800 border border-slate-600 rounded-2xl p-8">
+              <div className="flex items-start gap-4">
+                <div className="text-3xl">📖</div>
+                <div className="flex-1">
+                  <h2 className="text-xl font-bold mb-2">Want to actually charge those rates?</h2>
+                  <p className="text-slate-400 mb-4">
+                    Knowing your rate is step one. Getting clients to pay it is another. The <strong className="text-white">FreelanceRateIQ Guide</strong> covers:
+                  </p>
+                  <ul className="text-slate-300 space-y-2 mb-6 text-sm">
+                    <li>✓ Word-for-word scripts to raise rates with existing clients</li>
+                    <li>✓ Rate tables for 40+ niches with percentile breakdowns</li>
+                    <li>✓ How to position yourself as premium (not expensive)</li>
+                    <li>✓ When and how to turn down low-paying clients</li>
+                    <li>✓ Negotiation tactics that work without feeling pushy</li>
+                  </ul>
+                  <div className="flex items-center gap-4">
+                    <button
+                      onClick={handleBuyGuide}
+                      disabled={loading}
+                      className="bg-emerald-500 hover:bg-emerald-400 text-white font-semibold px-8 py-3 rounded-lg transition-colors"
+                    >
+                      {loading ? 'Loading...' : 'Get the Guide — $27'}
+                    </button>
+                    <span className="text-slate-500 text-sm">Instant PDF download</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* FreelanceProposalAI cross-link */}
+            <div className="bg-indigo-950/60 border border-indigo-500/30 rounded-2xl p-8">
+              <div className="flex items-start gap-4">
+                <div className="text-3xl">⚡</div>
+                <div className="flex-1">
+                  <div className="inline-block bg-indigo-500/20 text-indigo-300 text-xs font-medium px-2 py-0.5 rounded-full mb-2">
+                    New tool — early access
+                  </div>
+                  <h2 className="text-xl font-bold mb-2">
+                    Got your rate? Now win the client.
+                  </h2>
+                  <p className="text-slate-400 mb-4">
+                    Most freelancers lose deals to worse competitors who write better proposals.{' '}
+                    <strong className="text-white">FreelanceProposalAI</strong> turns your project details into a polished, client-winning proposal in 60 seconds — tailored to the client, not a generic template.
+                  </p>
+                  <ul className="text-slate-300 space-y-2 mb-6 text-sm">
+                    <li>✓ Answer 6 questions about the project</li>
+                    <li>✓ AI writes a custom proposal with your rate baked in</li>
+                    <li>✓ Copy, paste, send — close faster</li>
+                    <li>✓ Every lost proposal = $1K–$20K in missed revenue. This pays for itself on the first win.</li>
+                  </ul>
+                  <div className="flex items-center gap-4">
+                    <a
+                      href="https://freelance-proposal-ai-sand.vercel.app"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-block bg-indigo-500 hover:bg-indigo-400 text-white font-semibold px-8 py-3 rounded-lg transition-colors"
+                    >
+                      Try FreelanceProposalAI — $19 Early Access →
+                    </a>
+                  </div>
+                  <p className="text-slate-500 text-xs mt-3">Early access pricing — goes up when we exit beta.</p>
                 </div>
               </div>
             </div>

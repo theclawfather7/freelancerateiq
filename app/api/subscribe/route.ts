@@ -89,6 +89,18 @@ export async function POST(request: Request) {
       </a>
     </div>
 
+    <div style="background:#1e1b4b;border:1px solid #4f46e5;border-radius:12px;padding:24px;margin-bottom:24px;">
+      <div style="color:#a5b4fc;font-size:12px;font-weight:600;margin:0 0 8px;">⚡ Also from FreelanceRateIQ</div>
+      <h3 style="color:#fff;font-size:16px;font-weight:700;margin:0 0 8px;">Win the client with a better proposal.</h3>
+      <p style="color:#c7d2fe;font-size:13px;margin:0 0 16px;line-height:1.5;">
+        Most freelancers lose deals to worse competitors who write better proposals. <strong>FreelanceProposalAI</strong> turns 6 quick answers into a polished, tailored proposal in 60 seconds.
+      </p>
+      <a href="https://freelance-proposal-ai-sand.vercel.app"
+         style="display:inline-block;background:#6366f1;color:#fff;font-weight:700;font-size:14px;padding:10px 22px;border-radius:8px;text-decoration:none;">
+        Try FreelanceProposalAI — $19 Early Access →
+      </a>
+    </div>
+
     <p style="color:#475569;font-size:13px;line-height:1.6;margin:0 0 8px;">
       You subscribed because you used the FreelanceRateIQ calculator. 
       <a href="https://freelancerateiq.com" style="color:#10b981;">Visit the site</a>
